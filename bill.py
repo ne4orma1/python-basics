@@ -1,6 +1,6 @@
-price = float(input( "Введите цену товара: " ))
-quantity = float(input( "Введите количество товара: " ))
-tax = float(input( "Введите процент налога: " ))
+price = float(input("Введите цену товара: "))
+quantity = int(input("Введите количество товара: "))
+tax = float(input("Введите процент налога: "))
 
 tax_free_price = price * quantity
 sum_of_tax = tax_free_price * tax / 100
