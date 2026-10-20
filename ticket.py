@@ -1,3 +1,4 @@
+#Comment
 age = input("Введите свой возраст: ").strip()
 is_student = input("У вас есть студенческий билет? ").strip().lower()
 price = 100
