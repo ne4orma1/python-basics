@@ -12,4 +12,6 @@ elif 80 <= int(grade) <= 89:
 elif 70 <= int(grade) <= 79:
     print("Твоя оценка: С")
 elif 60 <= int(grade) <= 69:
+    print("Твоя оценка: D")
+elif int(grade) < 60:
     print("Твоя оценка: F")
