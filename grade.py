@@ -7,7 +7,7 @@ else:
     score = int(grade)
     if score > 100:
         print("Оценка должна быть от 0 до 100")
-    elif 90 <= score <= 100:
+    elif score >= 90:
         print("Твоя оценка: А")
     elif 80 <= score <= 89:
         print("Твоя оценка: В")
