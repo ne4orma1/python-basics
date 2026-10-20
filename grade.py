@@ -1,3 +1,4 @@
+# Grade calculator
 grade = input("Введите оценку: ").strip()
 
 if not grade.isdigit():
