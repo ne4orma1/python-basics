@@ -5,7 +5,7 @@ if not year.isdigit():
 else:
     year = int(year)
     if (year % 4 == 0) and (year % 100 != 0) or year % 400 == 0:
-        print(f"{year} год - это высокостный год")
+        print(f"{year} год - это високостный год")
     else:
-        print(f"{year} год - не высокостный")
+        print(f"{year} год - не високостный")
 
