@@ -8,14 +8,14 @@ if not age.isdigit():
 else:
     age = int(age)
     if is_student == "да" and 18 <= age <= 64:
-        print(f"Цена билета: {price / 2}")
+        print(f"Цена билета: {price / 2:.2f}")
     elif is_student == "нет"  and 18 <= age <= 64:
-        print(f"Цена билета: {price}")
+        print(f"Цена билета: {price:.2f}")
     elif 0 <= age <= 5:
         print("Вход для вас бесплатный")
     elif 6 <= age <= 17:
-        print(f"Цена билета: {price / 2}")
+        print(f"Цена билета: {price / 2:.2f}")
     elif age >= 65:
-        print(f"Цена билета: {price * 0.4}")
+        print(f"Цена билета: {price * 0.4:.2f}")
     else:
         print("Ответьте да или нет")
